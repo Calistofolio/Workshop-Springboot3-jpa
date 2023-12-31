@@ -31,9 +31,8 @@ public class User implements Serializable {
 	@JsonIgnore
 	@OneToMany(mappedBy = "client")
 	public List<Order> orders = new ArrayList<>();
-	
-	
 
+	
 	public User() {
 	}
 	
